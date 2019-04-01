@@ -1,0 +1,8 @@
+[Ll]astInfo
+[Gg]ameData
+
+*.json
+*.txt
+
+/.vscode/
+/__pycache__/
