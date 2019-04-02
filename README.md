@@ -11,10 +11,11 @@
 工具将会自动将自上次运行以来的所有回复整理进字典列表中，并传递给你的游戏主逻辑。
 
 ## 如何使用
-1.你需要安装python3.7及以上版本才能使用本工具  
-2.编辑Main.py文件填入你的饼干和你的跑团串号  
-3.编辑Game.py写入你的游戏逻辑  
-4.脚本将调用Game的Action方法，并传入名为replyData的字典列表  
+1.你需要安装[python3.7及以上版本](https://www.python.org/downloads/)才能使用本工具  
+2.你需要安装第三方库[requests](http://docs.python-requests.org)才能使用本工具  
+3.编辑Main.py文件填入你的饼干和你的跑团串号  
+4.编辑Game.py写入你的游戏逻辑  
+5.脚本将调用Game的Action方法，并传入名为replyData的字典列表  
 虽然说这么多，总共也没几行，而且还写了一堆注释，自己看看也搞的定
 
 ## replyData字典列表的内容
